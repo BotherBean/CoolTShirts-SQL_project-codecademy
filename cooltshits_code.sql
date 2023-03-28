@@ -1,3 +1,9 @@
+-- Overview of utm_campaigns and utm_sources
+
+SELECT DISTINCT utm_source,
+ utm_campaign
+FROM page_visits;
+
 -- Visits by page on home page
 
 SELECT DISTINCT page_name,
